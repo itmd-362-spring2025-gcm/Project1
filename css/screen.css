@@ -9,7 +9,7 @@ body{
 #title{
   font-size:3em;
   padding: 0px;
-  color:red;
+  color:green;
   letter-spacing: 0.047rem;
 }
 h1{
@@ -22,11 +22,18 @@ p{
   color:white;
   
 }
+.genCont{
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);;
+  width:90%;
+}
 
 @media only screen and (min-width: 480px){
   body{
   background-image:url('../media/gb.png');
-  background-position:top;}
+  }
   #title{
   color:blue;
   }
@@ -36,8 +43,8 @@ p{
 @media only screen and (min-width: 768px){
   body{
   background-image:url('../media/rgb.png');
-  background-position:top;}
+  }
   #title{
-  color:green;
+  color:red;
   }
 }
