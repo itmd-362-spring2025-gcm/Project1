@@ -8,9 +8,10 @@ body{
 }
 #title{
   font-size:3em;
-  padding: 0px;
-  color:green;
+  padding: 0.2em;
+  color:white;
   letter-spacing: 0.047rem;
+  text-shadow: 0.1em 0.1em #00aa00;
 }
 h1{
   text-align: center;
@@ -30,12 +31,17 @@ p{
   width:90%;
 }
 
+.formSpec{
+  text-align: center;
+  flex-direction:column;
+}
+
 @media only screen and (min-width: 480px){
   body{
-  background-image:url('../media/gb.png');
+  background-image:url('../media/bg.png');
   }
   #title{
-  color:blue;
+  text-shadow: 0.1em 0.1em #0000aa;
   }
 }
 
@@ -45,6 +51,6 @@ p{
   background-image:url('../media/rgb.png');
   }
   #title{
-  color:red;
+  text-shadow: 0.1em 0.1em #aa0000;
   }
 }
