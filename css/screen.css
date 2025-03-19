@@ -32,16 +32,19 @@ p{
 .formSpec{
   text-align: center;
   flex-direction:column;
+  padding: 0.1em
 }
 form{
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.5em;
 }
 
 label{
   display:flex;
   flex-direction:column;
+  padding: 0.2em;
+  color:white;
 }
 input{
   width:100%;
