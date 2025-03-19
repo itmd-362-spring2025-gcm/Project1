@@ -1,3 +1,33 @@
 body{
+  background-image:url('../media/g.png');
+  background-position:top;
+  background-color:black;
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  padding: 2em;
+}
+#title{
+  font-size:3em;
+  padding: 0px;
+  color:white;
+  letter-spacing: 0.047rem;
+}
+h1{
+  text-align: center;
+  font-size:2.4em;
+  font-family:'Times New Roman',serif;
+  padding: 20px;
+}
 
+@media only screen and (min-width: 480px){
+  body{
+  background-image:url('../media/gb.png');
+  background-position:top;}
+}
+
+
+@media only screen and (min-width: 768px){
+  body{
+  background-image:url('../media/rgb.png');
+  background-position:top;}
 }
