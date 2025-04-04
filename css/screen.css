@@ -5,7 +5,6 @@ body{
   font-family: Arial, sans-serif;
   font-family: Georgia, serif;
   background-repeat: no-repeat;
-  padding: 2em;
 }
 #title{
   font-size:3em;
@@ -26,9 +25,8 @@ p{
 .genCont{
   margin: 0 auto;
   padding: 20px;
-  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.8);
-  width:90%;
+  width:100;
 }
 .formSpec{
   text-align: center;
@@ -71,6 +69,7 @@ p{
 @media only screen and (min-width: 480px){
   body{
   background-image:url('../media/bg.png');
+  padding: 2em;
   }
   #title{
   text-shadow: 0.1em 0.1em #000077;
@@ -95,6 +94,7 @@ p{
 @media only screen and (min-width: 768px){
   body{
   background-image:url('../media/rgb.png');
+  padding: 2em;
   }
   #title{
   text-shadow: 0.1em 0.1em #770000;
